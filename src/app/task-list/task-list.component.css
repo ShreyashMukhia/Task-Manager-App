@@ -1,0 +1,53 @@
+.task-list {
+    margin: 0 auto;
+    padding: 1em;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #0b0b0b0b;
+    font-family: "Roboto", sans-serif;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .col-md-4 {
+    flex: 0 0 33.33%;
+    padding: 15px;
+  }
+  .card {
+    border: 1px solid#ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 1em;
+  }
+  .card-title {
+    font-weight: bold;
+    margin-bottom: 0.5px;
+  }
+  .card-text {
+    line-height: 1.5;
+  }
+  .card-footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .btn-sm {
+    margin-left: 0.5em;
+  }
+  .jumbotron {
+    padding: 2em;
+    margin-bottom: 2em;
+    background-color: #9fa2a5;
+  }
+  .jumbotron h2 {
+    margin-bottom: 1em;
+  }
+  div > .row > .col-md-4.completed {
+    background-color: rgb(8, 143, 20);
+  }
+  

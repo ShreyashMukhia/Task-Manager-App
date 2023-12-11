@@ -1,0 +1,21 @@
+.edit-task {
+    padding: 1em;
+    border: 1px solid #ddd; 
+    border-radius: 4px;
+  }
+  
+  .edit-task__title {
+    font-weight: bold;
+    margin-bottom: 1em;
+  }
+  
+  .edit-task__form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-task__buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+  }

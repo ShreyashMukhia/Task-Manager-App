@@ -1,0 +1,15 @@
+<div class="edit-task">
+    <h2 class="edit-task__title">Edit Task</h2>
+    <form class="edit-task__form">
+      <label for="task-name">Task Title:</label>
+      <input type="text" id="task-name" name="name" [(ngModel)]="task.title">
+      <br>
+      <label for="task-description">Description:</label>
+      <textarea id="task-description" name="description" [(ngModel)]="task.description"></textarea>
+      <br>
+      <div class="edit-task__buttons">
+        <button type="button" (click)="save()">Save</button>
+        <button type="button" (click)="cancel()">Cancel</button>
+      </div>
+    </form>
+  </div>
