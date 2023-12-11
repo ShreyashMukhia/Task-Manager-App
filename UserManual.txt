@@ -1,0 +1,19 @@
+Angular Task Manager App User Manual
+
+Welcome to the Angular Task Manager App! This user manual provides detailed instructions on how to use the features of the application effectively.
+
+Steps:
+1. Clone the project repository to your local machine:
+git clone https://github.com/your-username/angular-task-manager.git
+
+2. Navigate to the project directory:
+cd angular-task-manager
+
+3. Install the project dependencies:
+npm install
+
+4. Start the development server:
+ng serve
+
+5. Open your web browser and go to http://localhost:4200/ to access the Task Manager App.
+
